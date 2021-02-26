@@ -1,0 +1,146 @@
+// Alesis Nitro to EZDrummer - stuck cymbal choke fix
+// author: privatesalt
+// version: 1.00 BETA
+// changelog: version 1.00 BETA release (5/14/2019)
+
+
+/* 
+IMPORTANT:  Incoming MIDI channel must be set to CH 10 for this script to work. (The Nitro outputs on CH 10).
+If incoming MIDI is set to ALL, this script will not work.
+Put this script in the Incoming FX chain on the EZDrummer channel.
+
+The Alesis Nitro sends only one Poly Aftertouch MIDI message (a9 31 7f) for the crash cymbal 1 choke (when you grab the cymbal).
+EZDrummer requires at least 2 Channel Pressure (Channel Aftertouch) messages. The first one with 
+a value higher than 64 and the second one with a value of 64 or lower. The first message chokes the cymbal and
+the second one resets the choke.
+
+When this script receives incoming Poly Aftertouch message, 
+it sends out 2 Channel Pressure midi messages (with values determined by the sliders).
+The delay between the 2 Channel Pressure messages can be set with the slider.
+*/
+
+
+// intialize GUI
+// description of the JS script
+desc: Alesis Nitro to EZDrummer - Stuck cymbal choke fix - Incoming MIDI must be set to CH10
+
+//sliders
+slider1:sdelay=20<5,100,1>Delay time (ms)
+slider2:high_ch_press=100<65,127,1>High Channel Pressure (choke)
+slider3:low_ch_press=10<1,64,1>Low Channel Pressure (reset choke)
+
+// Slider 4 not needed. There is no incoming timing code when incoming  midi  is set to CH10
+//slider4:timing_clock=0<0,1,1 {off, on}>MIDI Timing Clock  (pass thru)  
+
+// no audio needed
+in_pin: none
+out_pin: none
+
+
+@init
+// buf_len = 2000000;
+buf_len = 1000000;
+
+@slider
+// set sliders to default values
+slider1 = 20; 
+slider2 = 100;
+slider3 = 10;
+// slider4 = 0;
+delay = floor((srate*(sdelay/500))+0.5);
+
+
+// initialize constants
+@init
+
+POLY_AFT_MSG =  $xA0;  // Poly Aftertouch message
+// TIMING_CLK_MSG = $xF0;  //  Timing Clock message 
+CH_PRESS_MSG = $xD0;  // Channel Pressure message
+CYMBAL_NOTE = $x31;   //  value of crash cymbal 1
+// IN_MIDI_CH = $xA; // 
+REPEAT=1;
+
+
+//  main loop
+@block
+
+buf_inc += samplesblock;
+buf_inc > buf_len ? buf_inc -= buf_len;
+offset_out = 0;
+
+
+  while ( 
+     buf_pos = buf_inc + offset;
+     buf_pos > buf_len ? buf_pos -= buf_len;
+     rep_pos = buf_pos+delay;
+        
+    // get midi 
+    midirecv(offset, msg1, msg2, msg3) ? (
+    
+    
+    msg_type = (msg1 & $xF0);   // get midi message type 
+    
+    // channel = (msg1 & $x0f) + 1;    // get midi message channel 
+    
+    // Info about Nitro
+    // poly aftertouch notes from hi hat foot pedal
+    // a9 2e 7f 
+    // a9 17 7f
+    // a9 2a 7f
+    // a9 15 7f
+    // poly aftertouch note from crash 1 cymbal
+    // a9 31 7f
+
+    
+    // if Poly Aftertouch message  
+    (msg_type == POLY_AFT_MSG && msg2 == CYMBAL_NOTE) ? (
+    // (msg_type == POLY_AFT_MSG) ? (
+      
+        
+        //  delay buffer for low channel pressure 
+        loop(REPEAT,       
+            rep_pos > buf_len ? rep_pos -= buf_len;
+            rep_pos[0] = low_ch_press;
+            rep_pos += delay;
+            rep_num += 1;
+         );  
+      
+        
+        midisend(offset, CH_PRESS_MSG, high_ch_press, msg3);  // send high Channel Pressure message
+    
+    ) : (
+      
+      // pass thru midi 
+      // (msg_type !== TIMING_CLK_MSG) ? (           // do not pass thru if timing clock   
+       midisend(offset, msg1, msg2, msg3);     // pass thru midi  
+      //);   
+      
+      // pass thru timing clock if slider4 is set to 'on'
+      // (msg_type == TIMING_CLK_MSG && timing_clock == 1) ? (          
+      // midisend(offset, msg1, msg2, msg3);     // pass thru midi timing clock
+      // );       
+    
+    
+    );    // end get midi if else 
+    
+  ); // end while 
+  
+); // end block
+
+
+// sample section 
+@sample
+
+//(msg_type == POLY_AFT_MSG && msg2 == CYMBAL_NOTE) ? (
+
+count_out > buf_len ? count_out -= buf_len;
+count_out[0] > 0 ?  
+  (msg2 == CYMBAL_NOTE) ? (
+  // midisend(offset_out,CH_PRESS_MSG, count_out[0], count_out[buf_len]);   
+  midisend(offset_out,CH_PRESS_MSG, count_out[0], msg3);  
+  );
+count_out[0] = count_out[buf_len] = 0;
+count_out += 1; 
+offset_out += 1;
+
+// end of script  
