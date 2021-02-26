@@ -1,0 +1,54 @@
+# MIDI note/CC name map
+127 X__Snare Rim click
+126 X__Snare R
+125 X__Snare L
+95 X__Cymbal 2 (Choke)
+86 X__Ride Punch
+85 X__Ride Bell
+84 X__Ride Bow
+83 X__Ride Choke
+82 X__Rack Tom 1 R
+81 X__Rack Tom 1 L
+80 X__Rack Tom 2 L
+79 X__Rack Tom 2 L
+78 X__Rack Tom 3 R
+77 X__Rack Tom 3 L
+75 X__Floor Tom 1 R
+74 X__Floor Tom 1 L
+73 X__Floor Tom 2 R
+72 X__Floor Tom 2 L
+65 X__Hats Seq Soft
+64 X__Hats Seq Hard
+63 Hi-hat tight tip
+62 Hi-hat tight edge
+61 X__Hats Clo Tip
+60 X__Hats Open Max
+58 X__Cymbal 3 (Choke)
+57 Cymbal 3 crash
+56 X__Cymbal 1 (Choke)
+55 X__Cymbal 1 (Sust)
+54 X__Cymbal 4 (Choke)
+49 Cymbal 2 crash
+48 Rack tom 1 centre
+47 Rack tom 2 centre
+46 X__Open Hat
+44 X__Soft Hat
+43 Floor tom 1 centre
+42 Hi-hat closed tip
+41 Floor tom 2 centre
+40 Snare rimshot
+38 Snare centre
+37 Snare sidestick
+36 Kick
+33 Snare edge
+29 X__Cymbal 2 (Sust)
+27 X__Cymbal 4 (Sust)
+26 Hi-hat open 3
+25 X__Open Hats 2
+24 Hi-hat open 1
+23 X__Hats Foot Splash
+22 Hi-hat closed edge
+21 X__Hats Pedal Chick
+3 X__Tambourine (ATTN: Vel)
+2 X__Shaker (ATTN: Vel)
+1 X__Claps/Snaps
