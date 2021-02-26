@@ -1,0 +1,67 @@
+BYPASS 0 0
+<VST "VST: ReaTune (Cockos)" reatune.vst.dylib 0 "" 1919251566<5653547265746E72656174756E650000> ""
+  bnRlcu5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAGgAAAABAAAAAAAQAA==
+  AAAAAAAAAAAeAAAAuAEAAAAAAAD/DwAA+gAAADIAAAAyAAAAAAAAAAAAAAAAAAAAAACAQgAAQEEAAAAAAAAgQgEAAAABAAAAAAALAAEAAAAAAAAAAAAAAAAAAADLAgAA
+  0wEAAAAAAAA=
+  AAAQAAAA
+>
+WAK 0 0
+BYPASS 1 0
+<VST "VST: ReaGate (Cockos)" reagate.vst.dylib 0 "" 1919248244<56535472656774726561676174650000> ""
+  dGdlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+  776t3g3wrd5mU6A6ppvEOwrXozwAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAACc0QczAACAP5zRBzMAAIA/AAAAAAAAAAAAAAAALBYLPwAAAAAAAAAA
+  AAAQAAAA
+>
+WAK 0 0
+BYPASS 0 0
+<VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213<5653547265636D726561636F6D700000> ""
+  bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAAAA==
+  776t3g3wrd4hrw8+jc2RPdLTVT2O4Fw8AAAAAAAAAAAWxYs81v1zOwAAAAAAAAAAvTeGNQAAgD8AAAAAw4GQPAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  AHN0b2NrIC0gZGlzdG9ydGVkIGVsZWN0cnRpYyBndWl0YXIAAAAAAA==
+>
+PRESETNAME "stock - distorted electrtic guitar"
+WAK 0 0
+BYPASS 0 0
+<JS guitar/distort-fuzz ""
+  20.000000 -25.000000 0.000000 -60.000000 2.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 0 0
+<JS loser/4BandEQ ""
+  -20.000000 0.000000 0.000000 2000.000000 10.000000 5000.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 1 0
+<JS guitar/flanger ""
+  6.000000 -72.000000 -6.000000 -6.000000 0.600000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 0 0
+<JS guitar/distortion ""
+  32.000000 6.000000 -6.000000 2.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 1 0
+<JS delay/delay_lowres ""
+  300.000000 -6.000000 -6.000000 -6.000000 -6.000000 8.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 0 0
+<JS Liteon/presenceeq ""
+  0.000000 7700.000000 7.760000 0.200000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0
+BYPASS 0 0
+<VST "VST: ReaVerb (Cockos)" reaverb.vst.dylib 0 "" 1919252066<56535472657662726561766572620000> ""
+  YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAzAAAAAEAAAAAABAA
+  AAAAwYlQ4j0AAAAAAAAAAAAAgD8AAIA/AAAAPwAAgD8AAIA/RklMRUxEUgB4AAAADAAAAC9Vc2Vycy9yY29vay9Eb2N1bWVudHMvU29uZ3MvV2VpcmRfUmlmZi9SZWFw
+  ZXJfYW5kX0pTX3BsdWdpbnNfb25seS9pbXB1bHNlcy9NTCBTb3VuZCBMYWIncyBCRVNUIElSIElOIFRIRSBXT1JMRC53YXYAVkVSQkdFTgAYAAAAAAAAAAAAekQAAIA/
+  AYahQgAAAAAAAIA/
+  AAAQAAAA
+>
+WAK 0 0
+BYPASS 0 0
+<JS Liteon/vumetergfx ""
+  50.000000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+WAK 0 0

@@ -1,0 +1,95 @@
+REQUIRED_CHANNELS 6
+BYPASS 0 0
+<JS loser/3BandSplitter ""
+  80.000000 800.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAABAAAAAAAAAAIAAAAAAAAAPAAAAOgDAAAGAAAABgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAA
+  AAAAAA==
+>
+WAK 0 0
+BYPASS 0 0
+<JS pitch/superpitch ""
+  -17.000000 0.000000 0.000000 50.000000 20.000000 0.000000 -120.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAQAAAAAAAAACAAAAAAAAAAHAAAAOgDAAAGAAAAAgAAABAAAAAAAAAAIAAAAAAAAAA=
+>
+<PROGRAMENV 0 0
+  PARAMBASE 0
+  LFO 1
+  LFOWT 0.2 0
+  AUDIOCTL 0
+  AUDIOCTLWT 1 1
+  LFOSHAPE 0
+  LFOSYNC 0 0 0
+  LFOSPEED 0.562286 0
+  MODWND 0 2828 355 3214 532
+>
+WAK 0 0
+BYPASS 0 0
+<JS utility/volume_pan_sample_accurate_auto ""
+  0.000000 96.500000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAQAAAAAAAAACAAAAAAAAAAHAAAAOgDAAAGAAAAAgAAABAAAAAAAAAAIAAAAAAAAAA=
+>
+<PROGRAMENV 1 0
+  PARAMBASE 0
+  LFO 1
+  LFOWT 1 0
+  AUDIOCTL 0
+  AUDIOCTLWT 1 1
+  LFOSHAPE 0
+  LFOSYNC 0 0 0
+  LFOSPEED 0.687347 0
+  MODWND 0 2792 271 3179 650
+>
+WAK 0 0
+BYPASS 0 0
+<JS pitch/superpitch ""
+  2.000000 0.000000 0.000000 50.000000 20.000000 0.000000 -120.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAEAAAAAAAAAAgAAAAAAAAAHAAAAOgDAAAGAAAAAgAAAAQAAAAAAAAACAAAAAAAAAA=
+>
+<PROGRAMENV 0 0
+  PARAMBASE 0
+  LFO 1
+  LFOWT 0.2 0
+  AUDIOCTL 0
+  AUDIOCTLWT 1 1
+  LFOSHAPE 0
+  LFOSYNC 0 0 0
+  LFOSPEED 0.437225 0
+  MODWND 0 2931 113 3318 492
+>
+WAK 0 0
+BYPASS 0 0
+<JS utility/volume_pan_sample_accurate_auto ""
+  0.000000 -66.200000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAEAAAAAAAAAAgAAAAAAAAAHAAAAOgDAAAGAAAAAgAAAAQAAAAAAAAACAAAAAAAAAA=
+>
+<PROGRAMENV 1 0
+  PARAMBASE 0
+  LFO 1
+  LFOWT 0.7 0
+  AUDIOCTL 0
+  AUDIOCTLWT 1 1
+  LFOSHAPE 0
+  LFOSYNC 0 0 0
+  LFOSPEED 0.105813 0
+  MODWND 0 2996 211 3383 590
+>
+WAK 0 0
+BYPASS 0 0
+<JS loser/3BandJoiner ""
+  -12.000000 -5.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAADwAAADoAwAABgAAAAYAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAcAAAA6AMAAAYAAAACAAAAAQAAAAAAAAACAAAA
+  AAAAAA==
+>
+WAK 0 0

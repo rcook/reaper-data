@@ -1,0 +1,43 @@
+REQUIRED_CHANNELS 6
+BYPASS 0 0
+<JS loser/3BandSplitter ""
+  150.000000 800.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAABAAAAAAAAAAIAAAAAAAAAPAAAAOgDAAAGAAAABgAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAA
+  AAAAAA==
+>
+WAK 0 0
+BYPASS 1 0
+<JS guitar/distortion "Low distortion"
+  20.000000 6.000000 -12.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAABAAAAAAAAAAIAAAAAAAAAHAAAAOgDAAAGAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA=
+>
+WAK 0 0
+BYPASS 0 0
+<JS guitar/distortion "Mid distortion"
+  37.000000 6.000000 -12.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAEAAAAAAAAAAgAAAAAAAAAHAAAAOgDAAAGAAAAAgAAAAQAAAAAAAAACAAAAAAAAAA=
+>
+WAK 0 0
+BYPASS 0 0
+<JS guitar/distortion "High distortion"
+  20.000000 6.000000 -12.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAABwAAADoAwAABgAAAAIAAAAQAAAAAAAAACAAAAAAAAAAHAAAAOgDAAAGAAAAAgAAABAAAAAAAAAAIAAAAAAAAAA=
+>
+WAK 0 0
+BYPASS 0 0
+<JS loser/3BandJoiner ""
+  10.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+>
+<JS_PINMAP
+  6AMAADwAAADoAwAABgAAAAYAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAcAAAA6AMAAAYAAAACAAAAAQAAAAAAAAACAAAA
+  AAAAAA==
+>
+WAK 0 0
