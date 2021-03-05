@@ -6,7 +6,7 @@
 86 X__Ride Punch
 85 X__Ride Bell
 84 X__Ride Bow
-83 X__Ride Choke
+83 Ride choke
 82 X__Rack Tom 1 R
 81 X__Rack Tom 1 L
 80 X__Rack Tom 2 L
@@ -23,11 +23,14 @@
 62 Hi-hat tight edge
 61 X__Hats Clo Tip
 60 X__Hats Open Max
+59 Ride edge
 58 X__Cymbal 3 (Choke)
 57 Cymbal 3 crash
 56 X__Cymbal 1 (Choke)
 55 X__Cymbal 1 (Sust)
 54 X__Cymbal 4 (Choke)
+53 Ride bell
+51 Ride bow
 49 Cymbal 2 crash
 48 Rack tom 1 centre
 47 Rack tom 2 centre
