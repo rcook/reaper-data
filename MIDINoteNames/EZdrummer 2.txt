@@ -39,67 +39,67 @@
 90 *** Ride bell
 89 *** Ride bow
 88 *** Ride bell
-87 *** Ride bow
-86 *** Ride edge
-85 *** Ride bell
-84 *** Ride bow
-83 Ride mute hit
-82 Rack tom 1 rimshot
-81 *** Rack tom 1 centre
-80 Rack tom 2 rimshot
-79 *** Rack tom 2 centre
-78 Rack tom 3 rimshot
-77 *** Rack tom 3 centre
-76 *** Snare side stick
-75 Floor tom 1 rimshot
-74 *** Floor tom 1 centre
-73 Floor tom 2 rimshot
-72 *** Floor tom 2 centre
-71 *** Snare rimshot
-70 *** Snare centre
-69 *** Snare centre
-68 *** Snare centre
-67 *** Snare side stick
-66 *** Snare centre
-65 Hi-hat seq hits
-64 *** Hi-hat closed edge
-63 Hi-hat tight tip
-62 Hi-hat tight edge
-61 *** Hi-hat closed tip
-60 Hi-hat open 4
-59 Ride edge
-58 Cymbal 3 mute hit
-57 Cymbal 3 crash
-56 Cymbal 1 mute hit
-55 Cymbal 1 crash
-54 Cymbal 4 mute hit
-53 Ride bell
-52 Cymbal 4 crash
-51 Ride bow
-50 Cymbal 2 mute hit
-49 Cymbal 2 crash
-48 Rack tom 1 centre
-47 Rack tom 2 centre
-46 *** Hi-hat open 2
-45 Rack tom 3 centre
-44 *** Hi-hat closed pedal
-43 Floor tom 1 centre
-42 Hi-hat closed tip
-41 Floor tom 2 centre
-40 Snare rimshot
-39 *** Snare centre
-38 Snare centre
-37 Snare side stick
-36 Kick hit
-35 *** Kick hit
-34 *** Kick hit
-33 *** Snare centre
-32 *** Cymbal 3 crash
-31 *** Cymbal 3 crash
-30 *** Ride edge
-29 *** Ride edge
-28 *** Cymbal 2 crash
-27 *** Cymbal 2 crash
+87 *** Ride bow (GM open surdo)
+86 *** Ride edge (GM mute surdo)
+85 *** Ride bell (GM castanets)
+84 *** Ride bow (GM belltree)
+83 Ride mute hit (GM jingle bell)
+82 Rack tom 1 rimshot (GM shaker)
+81 *** Rack tom 1 centre (GM open triangle)
+80 Rack tom 2 rimshot (GM mute triangle)
+79 *** Rack tom 2 centre (GM open cuica)
+78 Rack tom 3 rimshot (GM mute cuica)
+77 *** Rack tom 3 centre (GM low wood block)
+76 *** Snare side stick (GM high wood block)
+75 Floor tom 1 rimshot (GM claves)
+74 *** Floor tom 1 centre (GM long guiro)
+73 Floor tom 2 rimshot (GM short guiro)
+72 *** Floor tom 2 centre (GM long whistle)
+71 *** Snare rimshot (GM short whistle)
+70 *** Snare centre (GM maracas)
+69 *** Snare centre (GM cabasa)
+68 *** Snare centre (GM low agogo)
+67 *** Snare side stick (GM high agogo)
+66 *** Snare centre (GM low timbale)
+65 Hi-hat seq hits (GM high timbale)
+64 *** Hi-hat closed edge (GM low conga)
+63 Hi-hat tight tip (GM open high conga)
+62 Hi-hat tight edge (GM mute high conga)
+61 *** Hi-hat closed tip (GM low bongo)
+60 Hi-hat open 4 (GM high bongo)
+59 Ride edge (GM ride cymbal 2)
+58 Cymbal 3 mute hit (GM Vibraslap)
+57 Cymbal 3 crash (GM crash cymbal 2)
+56 Cymbal 1 mute hit (GM cowbell)
+55 Cymbal 1 crash (GM splash cymbal)
+54 Cymbal 4 mute hit (GM tambourine)
+53 Ride bell (GM ride bell)
+52 Cymbal 4 crash (GM Chinese cymbal)
+51 Ride bow (GM ride cymbal 1)
+50 Cymbal 2 mute hit (GM high tom)
+49 Cymbal 2 crash (GM crash cymbal 1)
+48 Rack tom 1 centre (GM high-mid tom)
+47 Rack tom 2 centre (GM low-mid tom)
+46 *** Hi-hat open 2 (GM open hi-hat)
+45 Rack tom 3 centre (GM low tom)
+44 *** Hi-hat closed pedal (GM pedal hi-hat)
+43 Floor tom 1 centre (GM high floor tom)
+42 Hi-hat closed tip (GM closed hi-hat)
+41 Floor tom 2 centre (GM low floor tom)
+40 Snare rimshot (GM electric snare)
+39 *** Snare centre (GM hand clap)
+38 Snare centre (GM acoustic snare)
+37 Snare side stick (GM side stick)
+36 Kick hit (GM bass drum 1)
+35 *** Kick hit (GM acoustic bass drum)
+34 *** Kick hit (GM metronome bell)
+33 *** Snare centre (GM metronome click)
+32 *** Cymbal 3 crash (GM square click)
+31 *** Cymbal 3 crash (GM sticks)
+30 *** Ride edge (GM scratch pull)
+29 *** Ride edge (GM scratch push)
+28 *** Cymbal 2 crash (GM slap)
+27 *** Cymbal 2 crash (GM high Q)
 26 Hi-hat open 3
 25 Hi-hat open 2
 24 Hi-hat open 1
@@ -126,4 +126,4 @@
 3 Tambourine pad shake hit immediate
 2 Shaker pad shake hit immediate
 1 One-shot pad hit
-0 (Nothing)
+0 (unmapped)
