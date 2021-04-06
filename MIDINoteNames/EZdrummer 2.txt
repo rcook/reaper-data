@@ -1,5 +1,5 @@
 # MIDI note/CC name map
-127 *** Snare sidestick
+127 *** Snare side stick
 126 *** Snare rimshot
 125 *** Snare centre
 124 *** Hi-hat open 5
@@ -50,7 +50,7 @@
 79 *** Rack tom 2 centre
 78 Rack tom 3 rimshot
 77 *** Rack tom 3 centre
-76 *** Snare sidestick
+76 *** Snare side stick
 75 Floor tom 1 rimshot
 74 *** Floor tom 1 centre
 73 Floor tom 2 rimshot
@@ -59,7 +59,7 @@
 70 *** Snare centre
 69 *** Snare centre
 68 *** Snare centre
-67 *** Snare sidestick
+67 *** Snare side stick
 66 *** Snare centre
 65 Hi-hat seq hits
 64 *** Hi-hat closed edge
@@ -89,7 +89,7 @@
 40 Snare rimshot
 39 *** Snare centre
 38 Snare centre
-37 Snare sidestick
+37 Snare side stick
 36 Kick hit
 35 *** Kick hit
 34 *** Kick hit
@@ -121,8 +121,8 @@
 8 *** Hi-hat tip trigger
 7 *** Hi-hat edge trigger
 6 *** Snare centre
-5 *** Snare sidestick
-4 *** Snare sidestick
+5 *** Snare side stick
+4 *** Snare side stick
 3 Tambourine pad shake hit immediate
 2 Shaker pad shake hit immediate
 1 One-shot pad hit
