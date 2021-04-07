@@ -2,7 +2,7 @@
 87 Open surdo
 86 Mute surdo
 85 Castanets
-84 Belltree
+84 Bell tree
 83 Jingle bell
 82 Shaker
 81 Open triangle
@@ -38,8 +38,8 @@
 51 Ride cymbal 1
 50 High tom
 49 Crash cymbal 1
-48 High-mid tom
-47 Low-mid tom
+48 High mid tom
+47 Low mid tom
 46 Open hi-hat
 45 Low tom
 44 Pedal hi-hat
