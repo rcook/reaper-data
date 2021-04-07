@@ -1,129 +1,62 @@
 # MIDI note/CC name map
-127 *** Snare side stick
-126 *** Snare rimshot
-125 *** Snare centre
-124 *** Hi-hat open 5
-123 *** Hi-hat open 1
-122 *** Hi-hat closed edge
-121 *** Hi-hat open 3
-120 *** Hi-hat open 1
-119 *** Hi-hat closed tip
-118 *** Ride mute hit
-117 *** Ride bell
-116 *** Ride bow
-115 *** Ride edge
-114 *** Ride bell
-113 *** Ride bow
-112 *** Ride bell
-111 *** Ride bow
-110 *** Ride edge
-109 *** Ride bell
-108 *** Ride bow
-107 *** Cymbal 4 mute hit
-106 *** Cymbal 3 mute hit
-105 *** Ride bell
-104 *** Ride bow
-103 *** Ride edge
-102 *** Ride bell
-101 *** Ride bow
-100 *** Ride bell
-99 *** Ride bow
-98 *** Ride edge
-97 *** Ride bell
-96 *** Ride bow
-95 *** Cymbal 2 mute hit
-94 *** Cymbal 1 mute hit
-93 *** Ride bell
-92 *** Ride bow
-91 *** Ride edge
-90 *** Ride bell
-89 *** Ride bow
-88 *** Ride bell
-87 *** Ride bow (GM open surdo)
-86 *** Ride edge (GM mute surdo)
-85 *** Ride bell (GM castanets)
-84 *** Ride bow (GM belltree)
-83 Ride mute hit (GM jingle bell)
-82 Rack tom 1 rimshot (GM shaker)
-81 *** Rack tom 1 centre (GM open triangle)
-80 Rack tom 2 rimshot (GM mute triangle)
-79 *** Rack tom 2 centre (GM open cuica)
-78 Rack tom 3 rimshot (GM mute cuica)
-77 *** Rack tom 3 centre (GM low wood block)
-76 *** Snare side stick (GM high wood block)
-75 Floor tom 1 rimshot (GM claves)
-74 *** Floor tom 1 centre (GM long guiro)
-73 Floor tom 2 rimshot (GM short guiro)
-72 *** Floor tom 2 centre (GM long whistle)
-71 *** Snare rimshot (GM short whistle)
-70 *** Snare centre (GM maracas)
-69 *** Snare centre (GM cabasa)
-68 *** Snare centre (GM low agogo)
-67 *** Snare side stick (GM high agogo)
-66 *** Snare centre (GM low timbale)
-65 Hi-hat seq hits (GM high timbale)
-64 *** Hi-hat closed edge (GM low conga)
-63 Hi-hat tight tip (GM open high conga)
-62 Hi-hat tight edge (GM mute high conga)
-61 *** Hi-hat closed tip (GM low bongo)
-60 Hi-hat open 4 (GM high bongo)
-59 Ride edge (GM ride cymbal 2)
-58 Cymbal 3 mute hit (GM Vibraslap)
-57 Cymbal 3 crash (GM crash cymbal 2)
-56 Cymbal 1 mute hit (GM cowbell)
-55 Cymbal 1 crash (GM splash cymbal)
-54 Cymbal 4 mute hit (GM tambourine)
-53 Ride bell (GM ride bell)
-52 Cymbal 4 crash (GM Chinese cymbal)
-51 Ride bow (GM ride cymbal 1)
-50 Cymbal 2 mute hit (GM high tom)
-49 Cymbal 2 crash (GM crash cymbal 1)
-48 Rack tom 1 centre (GM high-mid tom)
-47 Rack tom 2 centre (GM low-mid tom)
-46 *** Hi-hat open 2 (GM open hi-hat)
-45 Rack tom 3 centre (GM low tom)
-44 *** Hi-hat closed pedal (GM pedal hi-hat)
-43 Floor tom 1 centre (GM high floor tom)
-42 Hi-hat closed tip (GM closed hi-hat)
-41 Floor tom 2 centre (GM low floor tom)
-40 Snare rimshot (GM electric snare)
-39 *** Snare centre (GM hand clap)
-38 Snare centre (GM acoustic snare)
-37 Snare side stick (GM side stick)
-36 Kick hit (GM bass drum 1)
-35 *** Kick hit (GM acoustic bass drum)
-34 *** Kick hit (GM metronome bell)
-33 *** Snare centre (GM metronome click)
-32 *** Cymbal 3 crash (GM square click)
-31 *** Cymbal 3 crash (GM sticks)
-30 *** Ride edge (GM scratch pull)
-29 *** Ride edge (GM scratch push)
-28 *** Cymbal 2 crash (GM slap)
-27 *** Cymbal 2 crash (GM high Q)
-26 Hi-hat open 3
-25 Hi-hat open 2
-24 Hi-hat open 1
-23 Hi-hat open pedal
-22 Hi-hat closed edge
-21 Hi-hat closed pedal
-20 Hi-hat tip trigger
-19 *** Hi-hat tip trigger
-18 Hi-hat edge trigger
-17 Hi-hat open 5
-16 *** Hi-hat open 4
-15 *** Hi-hat open 3
-14 *** Hi-hat open 2
-13 *** Hi-hat open 1
-12 *** Hi-hat open 1
-11 *** Hi-hat closed tip
-10 *** Hi-hat closed pedal
-9 *** Hi-hat tip trigger
-8 *** Hi-hat tip trigger
-7 *** Hi-hat edge trigger
-6 *** Snare centre
-5 *** Snare side stick
-4 *** Snare side stick
-3 Tambourine pad shake hit immediate
-2 Shaker pad shake hit immediate
-1 One-shot pad hit
-0 (unmapped)
+87 Open surdo
+86 Mute surdo
+85 Castanets
+84 Belltree
+83 Jingle bell
+82 Shaker
+81 Open triangle
+80 Mute triangle
+79 Open cuica
+78 Mute cuica
+77 Low wood block
+76 High wood block
+75 Claves
+74 Long guiro
+73 Short guiro
+72 Long whistle
+71 Short whistle
+70 Maracas
+69 Cabasa
+68 Low agogo
+67 High agogo
+66 Low timbale
+65 High timbale
+64 Low conga
+63 Open high conga
+62 Mute high conga
+61 Low bongo
+60 High bongo
+59 Ride cymbal 2
+58 Vibraslap
+57 Crash cymbal 2
+56 Cowbell
+55 Splash cymbal
+54 Tambourine
+53 Ride bell
+52 Chinese cymbal
+51 Ride cymbal 1
+50 High tom
+49 Crash cymbal 1
+48 High-mid tom
+47 Low-mid tom
+46 Open hi-hat
+45 Low tom
+44 Pedal hi-hat
+43 High floor tom
+42 Closed hi-hat
+41 Low floor tom
+40 Electric snare
+39 Hand clap
+38 Acoustic snare
+37 Side stick
+36 Bass drum 1
+35 Acoustic bass drum
+34 Metronome bell
+33 Metronome click
+32 Square click
+31 Sticks
+30 Scratch pull
+29 Scratch push
+28 Slap
+27 High Q

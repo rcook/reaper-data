@@ -126,4 +126,3 @@
 3 Tambourine pad shake hit immediate
 2 Shaker pad shake hit immediate
 1 One-shot pad hit
-0 (unmapped)
