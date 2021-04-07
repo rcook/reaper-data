@@ -1,0 +1,44 @@
+# MIDI note/CC name map
+83 Ride mute hit
+82 Rack tom 1 rimshot
+80 Rack tom 2 rimshot
+78 Rack tom 3 rimshot
+75 Floor tom 1 rimshot
+73 Floor tom 2 rimshot
+65 Hi-hat seq hits
+63 Hi-hat tight tip
+62 Hi-hat tight edge
+60 Hi-hat open 4
+59 Ride edge
+58 Cymbal 3 mute hit
+57 Cymbal 3 crash
+56 Cymbal 1 mute hit
+55 Cymbal 1 crash
+54 Cymbal 4 mute hit
+53 Ride bell
+52 Cymbal 4 crash
+51 Ride bow
+50 Cymbal 2 mute hit
+49 Cymbal 2 crash
+48 Rack tom 1 centre
+47 Rack tom 2 centre
+45 Rack tom 3 centre
+43 Floor tom 1 centre
+42 Hi-hat closed tip
+41 Floor tom 2 centre
+40 Snare rimshot
+38 Snare centre
+37 Snare side stick
+36 Kick hit
+26 Hi-hat open 3
+25 Hi-hat open 2
+24 Hi-hat open 1
+23 Hi-hat open pedal
+22 Hi-hat closed edge
+21 Hi-hat closed pedal
+20 Hi-hat tip trigger
+18 Hi-hat edge trigger
+17 Hi-hat open 5
+3 Tambourine pad shake hit immediate
+2 Shaker pad shake hit immediate
+1 One-shot pad hit
